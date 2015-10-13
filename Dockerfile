@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine:3.2
+FROM gliderlabs/alpine:3.1
 
 RUN apk add --update python \
   && rm -rf /var/cache/apk/*
